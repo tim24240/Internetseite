@@ -242,7 +242,27 @@
     from {opacity: .4}
     to {opacity: 1}
   }
- 
+
+  .sehenswuerdigkeit {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sehenswuerdigkeit:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .sehenswuerdigkeit img {
+    display: none;
+  }
+  
+  .sehenswuerdigkeit.active img {
+    display: block;
+    width: 200px;
+    height: auto;
+  }
  
  
  
