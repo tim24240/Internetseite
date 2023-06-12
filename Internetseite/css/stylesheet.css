@@ -242,31 +242,6 @@
     from {opacity: .4}
     to {opacity: 1}
   }
-<<<<<<< HEAD
-
-  .sehenswuerdigkeit {
-    cursor: pointer;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .sehenswuerdigkeit:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .sehenswuerdigkeit img {
-    display: none;
-  }
-  
-  .sehenswuerdigkeit.active img {
-    display: block;
-    width: 200px;
-    height: auto;
-  }
- 
- 
-=======
  .overallcontainer {
   position: relative;
   width: 100%;
@@ -310,7 +285,6 @@
   transform: translate(-50%, -50%);
   text-align: center;
  }
->>>>>>> 96def7bcc5dc15e4f5af1823c241aea63540c397
  
  
   
