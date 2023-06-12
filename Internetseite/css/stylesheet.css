@@ -287,16 +287,12 @@
     text-align: center;
    }
   
- 
- 
- 
- 
-  
-  .sehenswuerdigkeit {
+   .sehenswuerdigkeit {
     cursor: pointer;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    display: flex;
   }
   
   .sehenswuerdigkeit:hover {
@@ -304,8 +300,12 @@
   }
   
   .sehenswuerdigkeit img {
-    display: block;
-    max-width: 100%;
+    max-width: 200px; 
     height: auto;
-    margin-top: 10px;
+    margin-right: 10px;
   }
+  
+  .sehenswuerdigkeit .beschreibung {
+    flex: 1;
+  }
+  
