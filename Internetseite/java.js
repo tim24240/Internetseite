@@ -1,4 +1,4 @@
-const sehenswuerdigkeiten = document.getElementsByClassName('sehenswuerdigkeit');
+sehenswuerdigkeiten = document.getElementsByClassName('sehenswuerdigkeit');
 
 Array.from(sehenswuerdigkeiten).forEach(sehenswuerdigkeit => {
   const id = sehenswuerdigkeit.id;

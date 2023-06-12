@@ -303,6 +303,12 @@
     max-width: 200px; 
     height: auto;
     margin-right: 10px;
+    display: none;
+  }
+
+  .sehenswuerdigkeit.active img {
+    display: initial;
+
   }
   
   .sehenswuerdigkeit .beschreibung {
