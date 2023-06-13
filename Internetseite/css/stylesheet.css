@@ -290,7 +290,8 @@
   transform: translate(-50%, -50%);
   text-align: center;
  }
-   
+
+   }
    .sehenswuerdigkeit {
     cursor: pointer;
     border: 1px solid #ccc;
@@ -304,7 +305,7 @@
   }
   
   .sehenswuerdigkeit img {
-    max-width: 200px; 
+    max-width: 300px; 
     height: auto;
     margin-right: 10px;
     display: none;
