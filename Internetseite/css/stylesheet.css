@@ -290,9 +290,6 @@
   text-align: center;
  }
  
- 
-  
-   }
    .imagecontainer {
     position: relative;
     width: 50%;
@@ -343,7 +340,7 @@
   }
   
   .sehenswuerdigkeit img {
-    max-width: 200px; 
+    max-width: 300px; 
     height: auto;
     margin-right: 10px;
     display: none;
